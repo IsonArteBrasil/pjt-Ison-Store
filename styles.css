@@ -1,0 +1,166 @@
+html {
+  scroll-behavior: smooth;
+}
+:root{
+  --background:#ffffff, #aca2a2, #fdfbfb 1%, #817d7d, #000000;
+  --letter-red:#ff0000;
+  --white: #fff;
+  --black: #000;
+  
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Rajdhani', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
+  background-color: #000000;
+  color:#ffffff
+}
+main {
+  width: 80vw;
+  margin: 0 auto;  
+}
+
+
+/* Estilos para o Header*/
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(#ffffff, #aca2a2, #fdfbfb 1%, #817d7d, #000000);
+  height: 7rem;
+  width: 80vw;
+  margin: 0 auto 7rem;
+  align-items: center;
+  position: ;
+  
+}
+
+.logo {
+ 
+  width: 7rem;
+  height: 7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo img {
+  width: 4.5rem;
+  height: 2rem;
+  margin-top: 0px;
+
+
+}
+
+.equal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4.5rem;
+  height: 1.2rem;
+  margin-top: 2px;
+  margin-bottom: 4px;
+  background-color: #ffffff;
+}
+
+.slogan {
+  color: #000000;
+  font-size: 28px;
+  text-align: left;
+  font-weight: 300;
+  margin-left: -15px;
+  margin-top: -45px;
+  width: 30%;
+
+}
+
+.slogan::first-letter {
+  color: #ff0000;
+  font-size:larger;
+}
+
+/* Estilos para a barra de navegação */
+
+
+nav ul {
+ 
+  float: right;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  height: 1.5rem;
+  width: 650px;
+
+}
+
+nav li {
+  margin-right: 5px;
+  display: inline-block;
+  position: relative;  
+  border-radius: 4px;
+  height: 25px;
+  width: 100px;
+}
+
+nav a {
+  text-align: center;
+  display: block;
+  padding: 0;
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+nav a:hover{
+/*background-color: rgba(255, 253, 253, 0.904);  */
+  border-radius: 3px;
+  color: #000000;
+}
+/* Estilos para a primeira letra quando o link está em :hover */
+nav a:hover::first-letter {  
+  color:#ff0000;
+}
+  
+
+
+ 
+
+
+.submenu {
+  display: none;
+  position: absolute;
+  background-color: #da1313;
+  border: 1px solid #000000;
+  text-shadow: 0.5px 0.6px 0.7px #ff0000;
+}
+
+
+
+/* Estilos para as sections */
+#about{
+  text-align:justify;
+}
+h2 {
+  color: #ff0000;
+  margin-top: 80px;
+  text-align: center;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 300;
+  word-spacing: 3px;
+  text-indent: 3em;
+}
+#about, .slogan-in-text{
+  text-align: center;
+}
