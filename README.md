@@ -1,1 +1,1 @@
-# pjt-Ison-Store
+# pjt-ison
