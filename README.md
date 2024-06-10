@@ -1,4 +1,4 @@
-# pjt-Ison-Store
+# pjt-ison
 
 ## Ison/
 │
